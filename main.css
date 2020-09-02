@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+  letter-spacing: -1px;
+}
+#top-nav {
+  background-color: #f42;
+  padding: 0px;
+}
+.weather {
+  line-height: 37px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.weather i {
+  color: white;
+}
+.left-navbar {
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+#newsweek-logo {
+  width: 100%;
+  height: 130px;
+  position: relative;
+  top: -10px;
+  z-index: 10;
+}
+.right-navbar {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  float: right;
+}
+#btn-subscription {
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#second-nav {
+  margin-top: -40px;
+
+  padding-left: 0;
+  padding-right: 0;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(199, 197, 197);
+}
+#secondary-nav {
+  margin-left: 0px;
+  position: relative;
+  padding-left: 0;
+}
+#secondary-nav ul {
+  margin-left: 0px;
+}
+
+#secondary-nav li a {
+  padding-top: 10px;
+  border-right: 1px solid rgb(230, 227, 227);
+  font-family: sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 19px;
+  line-height: 7px;
+}
+#secondary-nav li a:hover {
+  color: #f42;
+}
+#second-nav-list li:last-child {
+  border-right: none;
+}
+#search {
+  border: none;
+  width: 70px;
+  padding: 0px;
+}
+.search-container {
+  padding: 0px;
+  height: 40px;
+  line-height: 10px;
+  margin-top: -5px;
+}
+.search-icon {
+  color: rgb(97, 96, 96);
+  padding: 0px;
+  margin-top: -6px;
+  margin-left: 0px;
+}
+.trapezium {
+  background-color: #f42;
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 80px;
+  height: 20px;
+  margin-top: -10px;
+}
+.cornered {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%;
+  height: 90%;
+  border-top: 15px solid #f42;
+  border-left: 15px solid white;
+}
+#trending-nav {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(199, 197, 197);
+}
+#trending-nav ul li {
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #aaa;
+  font-size: 19px;
+  line-height: 7px;
+}
+#third-nav-list li a {
+  color: rgb(122, 121, 121);
+  font-weight: 700;
+  font-size: 15px;
+}
+#third-nav-list li:first-child a {
+  color: black;
+}
+#third-nav-list li a:hover {
+  color: #f42;
+}
+.top-nav-container {
+  padding: 0px;
+  margin-left: 0;
+}
+.top-nav-left {
+  padding: 0px;
+  text-align: left;
+  float: left;
+  margin-left: 0px;
+}
