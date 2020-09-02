@@ -140,3 +140,75 @@ body {
   float: left;
   margin-left: 0px;
 }
+.section-1 {
+  background-color: white;
+  margin-top: 60px;
+  letter-spacing: -1px;
+}
+
+.story-card {
+  border-radius: 0px !important;
+  border: none !important;
+  margin-bottom: 20px !important;
+}
+.card-img-container {
+  position: relative;
+  width: 100%;
+}
+.story-card-image {
+  border-radius: 0px !important;
+}
+.story-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  color: #aaa;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.story-category {
+  border-radius: 0px !important;
+  background-color: white !important;
+  opacity: 0.85;
+  color: #f42 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+}
+.story-category-2 {
+  border-radius: 0px !important;
+  background-color: white !important;
+  opacity: 0.85;
+  color: rgb(9, 9, 207) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+}
+.story-itself {
+  padding: 0 !important;
+}
+
+.story-title a {
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize !important;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+.story-title a:hover {
+  text-decoration: underline !important;
+  -webkit-text-decoration-color: #f42;
+  text-decoration-color: #f42 !important;
+  color: black;
+}
+.story-story {
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.card-margin {
+  margin-bottom: 20px;
+}
